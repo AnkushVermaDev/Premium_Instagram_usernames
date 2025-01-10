@@ -29,7 +29,7 @@ def generate_random_word():
     numbers = "987654321"
     
     # Generate the first two alphabetic characters
-    word = ''.join(random.choices(alphabets, k=2))
+    word = ''.join(random.choices(alphabets, k=3))
     
     # Append a random number
     word += random.choice(numbers)
